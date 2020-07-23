@@ -23,7 +23,7 @@ you just pass the URL as param.
 You start it  
 by DO ##CLASS(WSCI.Client).Try()  
 or DO ##CLASS(WSCI.Client).Try(server_url)  
-
+~~~
 USER>DO ##CLASS(WSCI.Client).Try()   
 OPEN  
 MESSAGE:10@%Stream.TmpCharacter   
@@ -72,4 +72,4 @@ new message (*=exit):*
     
 ERROR #28000: Connection closed  
 USER>  
-   
+~~~   
