@@ -10,12 +10,12 @@ As a continuation of my series of WS Clients I just couldn't resist to try it.
 Well, this is the result and it was rather simple in the end.    
    - After I succeeded in my personal fight against Windows Firewall ;-)   
    
-You basically need to prepare 2 classes:  
+You basically need to prepare 3 classes:  
 - Credentials for User,  PW, SSL   
-- an Event Listener  
-and a 3rd to use the client. Could be a .MAC routine as well  
+- an Event Listener
+- the Client  (Could be a .MAC routine as well) 
 
-The example uses the WS.EchoServer (a derivate from former SAMPLES in Caché).  
+The example uses the WSS.EchoServer (a derivate from former SAMPLES in Caché).  
 The default assumption is to have Client and Server on the same system & namespace.  
 But if you have some other echo server (e.g. ws://echo.websocket.org)    
 you just pass the URL as param.  
