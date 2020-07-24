@@ -8,7 +8,7 @@
       <Keywords>Terminal, COS</Keywords>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-       <Resource Name="%zml.MAC"/>
+       <Resource Name="WSCI.PKG"/>
     </Module>
   </Document>
 </Export>
