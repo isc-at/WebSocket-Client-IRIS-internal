@@ -13,8 +13,8 @@ ClassMethod Try(
 	kill %ct
 	set port=$SYSTEM.CSP.GetGatewayRegistry().GetGatewayMgrs().GetAt(1).Port	
 		,msg="hallo WS demo server"
- 		,evl=##class(WS.EVL).%New()
- 	set:'$d(url) url="http://localhost:"_port_"/csp/"_$namespace_"/WS.EchoServer.cls"
+ 		,evl=##class(WSCI.EVL).%New()
+ 	set:'$d(url) url="http://localhost:"_port_"/csp/"_$namespace_"/WSS.EchoServer.cls"
 #; init connection 	
  	set ws=##class(%Net.WebSocket.Client).%New(url,,evl)
 #; check reply every 4 sec
