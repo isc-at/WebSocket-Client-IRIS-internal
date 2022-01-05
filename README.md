@@ -1,9 +1,3 @@
- ~~~
- This is a coding example working on IRIS 2020.1 
- It will not be kept in sync with new versions      
- It is also NOT serviced by InterSystems Support !   
-~~~ 
-
 IRIS 2010.1 brought us a new feature: %Net.WebSocket.Client  
 
 As a continuation of my series of WS Clients I just couldn't resist to try it.  
