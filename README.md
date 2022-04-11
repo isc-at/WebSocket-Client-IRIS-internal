@@ -16,7 +16,11 @@ you just pass the URL as param.
 
 You start it  
 by DO ##CLASS(WSCI.Client).Try()  
-or DO ##CLASS(WSCI.Client).Try(server_url)  
+or DO ##CLASS(WSCI.Client).Try(server_url)   
+
+on DemoServer use  
+   **DO ##CLASS(WSCI.Client).Try("wss://ws.postman-echo.com/raw")**
+
 ~~~
 USER>DO ##CLASS(WSCI.Client).Try()   
 OPEN  
