@@ -67,3 +67,12 @@ new message (*=exit):*
 ERROR #28000: Connection closed  
 USER>  
 ~~~   
+
+[Demo Server SMP](https://websocket-client-iris-internal.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
+[Demo Server WebTerminal](https://websocket-client-iris-internal.demo.community.intersystems.com/terminal/)    
+        
+**Code Quality**   
+<img width="85%" src="
+https://openexchange.intersystems.com/mp/img/packages/671/screenshots/4bh7tyapellnv0cjgw34riapcfo.jpg
+">
+
