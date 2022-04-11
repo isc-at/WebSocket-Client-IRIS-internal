@@ -15,7 +15,7 @@ But if you have some other echo server (e.g. ws://echo.websocket.org)
 you just pass the URL as param.  
 
 You start it  
-by DO ##CLASS(WSCI.Client).Try()  
+by **DO ##CLASS(WSCI.Client).Try()**    
 or DO ##CLASS(WSCI.Client).Try(server_url)   
 
 ~~~
@@ -68,7 +68,6 @@ new message (*=exit):*
 ERROR #28000: Connection closed  
 USER>  
 ~~~   
-
 [Demo Server SMP](https://websocket-client-iris-internal.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
 [Demo Server WebTerminal](https://websocket-client-iris-internal.demo.community.intersystems.com/terminal/)    
         
