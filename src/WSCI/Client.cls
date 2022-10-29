@@ -11,7 +11,8 @@ ClassMethod Try(
 	%b = 0)
 {
 	kill %ct
-	set port=$SYSTEM.CSP.GetGatewayRegistry().GetGatewayMgrs().GetAt(1).Port	
+#;	set port=$SYSTEM.CSP.GetGatewayRegistry().GetGatewayMgrs().GetAt(1).Port	
+	set port=^%SYS("WebServer","Port")	
 		,msg="hallo WS demo server"
  		,evl=##class(WSCI.EVL).%New()
  	set:'$d(url) url="http://localhost:"_port_"/csp/"_$namespace_"/WSCI.EchoServer.cls"
