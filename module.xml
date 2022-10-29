@@ -3,7 +3,7 @@
   <Document name="websocket-client-iris-internal.ZPM">
     <Module>
       <Name>websocket-client-iris-internal</Name>
-      <Version>1.0.5</Version>
+      <Version>1.0.6</Version>
       <Description>Using %Net.WebSocket in IRIS</Description>
       <Keywords>Terminal, COS</Keywords>
       <Packaging>module</Packaging>
